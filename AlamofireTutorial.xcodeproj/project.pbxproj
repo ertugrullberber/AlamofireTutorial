@@ -16,6 +16,7 @@
 		58CAB7EA288D6B1A00BE47C9 /* CategoryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAB7E9288D6B1A00BE47C9 /* CategoryDetail.swift */; };
 		58CAB7ED288D6B7200BE47C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 58CAB7EC288D6B7200BE47C9 /* Alamofire */; };
 		58CAB7EF288D774A00BE47C9 /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAB7EE288D774A00BE47C9 /* AddCategory.swift */; };
+		58CAB7F1288D7D8700BE47C9 /* CategoryUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CAB7F0288D7D8700BE47C9 /* CategoryUpdate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		58CAB7E7288D6AD000BE47C9 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 		58CAB7E9288D6B1A00BE47C9 /* CategoryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetail.swift; sourceTree = "<group>"; };
 		58CAB7EE288D774A00BE47C9 /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		58CAB7F0288D7D8700BE47C9 /* CategoryUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryUpdate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				58CAB7E7288D6AD000BE47C9 /* CategoryList.swift */,
 				58CAB7E9288D6B1A00BE47C9 /* CategoryDetail.swift */,
 				58CAB7EE288D774A00BE47C9 /* AddCategory.swift */,
+				58CAB7F0288D7D8700BE47C9 /* CategoryUpdate.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				58CAB7D6288D6A4400BE47C9 /* AlamofireTutorialApp.swift in Sources */,
 				58CAB7E8288D6AD000BE47C9 /* CategoryList.swift in Sources */,
 				58CAB7EF288D774A00BE47C9 /* AddCategory.swift in Sources */,
+				58CAB7F1288D7D8700BE47C9 /* CategoryUpdate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

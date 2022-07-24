@@ -22,22 +22,23 @@ struct AddCategory: View {
             
             TextField("Description: " , text: $category.description)
             
-        }
-        
-        Button("Add"){
-            
-            let newCategory : [String: Any] = [
-                "name" : category.name,
-                "description" : category.description
-            ]
-            
-            let request = AF.request("https://northwind.vercel.app/api/categories", method: .post, parameters: newCategory , encoding: JSONEncoding.default )
-            
-            request.response{ res in
-                print(res)
+            Button("Add"){
                 
+                let newCategory : [String: Any] = [
+                    "name" : category.name,
+                    "description" : category.description
+                ]
+                
+                let request = AF.request("https://northwind.vercel.app/api/categories", method: .post, parameters: newCategory , encoding: JSONEncoding.default )
+                
+                request.response{ res in
+                    print(res)
+                    
+                }
             }
         }
+        
+        
         
     }
 }

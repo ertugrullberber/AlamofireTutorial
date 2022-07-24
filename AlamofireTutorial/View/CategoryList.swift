@@ -15,12 +15,22 @@ struct CategoryList: View {
     var body: some View {
         VStack{
             
+            Text("Categories Count: \(categories.count)")
+            
             ForEach(categories, id: \.self) {item in
                 NavigationLink(destination: CategoryDetail(id: item.id)) {
                     Text(item.name)
                         .padding()
                     
                 }
+                
+                NavigationLink(destination: CategoryUpdate(id: item.id)) {
+                    Text("Update")
+                        .padding()
+                }
+               
+                
+                
                 
                 Button("Delete"){
                     let request = AF.request("https://northwind.vercel.app/api/categories\(item.id)", method: .delete)
@@ -69,7 +79,6 @@ struct CategoryList: View {
     }
 }
 }
-
 struct CategoryList_Previews: PreviewProvider {
     static var previews: some View {
         CategoryList()
